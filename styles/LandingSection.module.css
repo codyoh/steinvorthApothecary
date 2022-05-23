@@ -1,0 +1,34 @@
+.landingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    min-width: 85vw;
+    height: 75vh;
+    /* background-image: url('../public/images/SA_18.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+}
+
+.textArea {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 1rem;
+    max-width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.callToActionButton {
+    color: white;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: .5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
