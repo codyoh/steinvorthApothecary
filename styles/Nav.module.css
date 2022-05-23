@@ -1,6 +1,10 @@
 .navUl {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.navLink {
+    font-weight: thin;
 }

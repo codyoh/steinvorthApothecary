@@ -8,8 +8,13 @@ export default function Nav() {
             <ul className={styles.navUl}>
                 <li>
                     <Link href="/landing">
-                        <a>
-                            Steinvorth Apothecary
+                        <a className={styles.navLink}>
+                            <span style={{ display: "block" }}>
+                                Steinvorth
+                            </span>
+                            <span style={{ display: "block" }}>
+                                Apothecary
+                            </span>
                         </a>
                     </Link>
                 </li>

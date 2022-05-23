@@ -1,9 +1,17 @@
 
 
-export default function ProductCard() {
+export default function ProductCard({ data }) {
+
+    const { id, productName, imageSource } = data;
     return (
         <div>
-            Product Card
+            <img src={imageSource} />
+            <div>
+                <h3>
+                    {productName}
+                </h3>
+            </div>
         </div>
     )
 }
+
